@@ -1,0 +1,225 @@
+*, body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Calibre, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: #393b41;
+}
+
+.wrapper {
+    background: #ebebeb;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.header {
+    min-height: 86vh;
+    padding-top: 35vh;
+    background: url('/media/mountains.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-container {
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+h1 {
+    color: #393b41;
+    font-size: calc(22px + 9vw);
+    line-height: calc(19px + 8vw);
+    margin-bottom: 35px;
+    letter-spacing: -1px;
+}
+
+.header p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.nav-wrapper {
+    height: 350px;
+    margin-bottom: -350px;
+}
+
+.nav-sticky {
+    position: sticky;
+    top: 0;
+    letter-spacing: 2px;
+    margin: auto;
+    width: 80vw;
+    padding: 30px 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-sticky ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-sticky li {
+    margin-right: 3.5vw;    
+} 
+
+.nav-sticky a {
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a.logo {
+    color: #d6d6d6;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-right: 40px;
+}
+
+.nav-sticky a:hover {
+    color: #d6d6d6;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    cursor: default;
+}
+
+.social {
+    width: 35px;
+    height: 35px;
+    margin: 0 25px;
+}
+
+.social.y {
+    background: url('../media/social-youtube.png');
+    background-position: center;
+    background-size: cover;    
+}
+
+.social.y:hover {
+    background: url('../media/social-youtube-grey.png');
+    background-position: center;
+    background-size: cover;    
+}
+
+.social.t {
+    background: url('../media/social-twitter.png');
+    background-position: center;
+    background-size: cover;    
+}
+
+.social.t:hover {
+    background: url('../media/social-twitter-grey.png');
+    background-position: center;
+    background-size: cover;    
+}
+
+.container {
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.side {
+    width: 25%;
+    min-width: 200px;
+    margin-right: 15px;
+}
+
+.side-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.side-text {
+    font-family: 'Founders Grotesk Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.side-line {
+    width: 50px;
+    height: 3px;
+    background: #393b41;
+}
+
+.content {
+    width: 75%;   
+    max-width: 700px;
+}
+
+h2 {
+    font-size: calc(15px + 8vw);
+    line-height: calc(15px + 7.5vw);
+    margin-top: -30px;
+    margin-bottom: 60px;
+    letter-spacing: -1px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.white {
+    background: #f1f1f1;
+}
+
+.white h2 {
+    font-size: calc(15px + 6vw);
+    line-height: calc(13px + 6vw);
+}
+
+button {
+    border: none;
+    background: #393b41;
+    padding: 15px 50px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: #ebebeb;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background: #d6d6d6;
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url("https://assets.website-files.com/5d816b07d269385f68dbcab0/5d816b07d2693800f5dbcae7_CalibreWeb-Light.woff") format("woff");
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: "Calibre";
+    src: url("https://assets.website-files.com/5d816b07d269385f68dbcab0/5d816b07d269382ed5dbcaee_CalibreWeb-Medium.woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "Founders Grotesk Mono";
+    src: url("https://assets.website-files.com/5d816b07d269385f68dbcab0/5d816b07d2693854eddbcad9_FoundersGroteskMonoWeb-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+  }
