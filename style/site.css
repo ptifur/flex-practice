@@ -208,18 +208,18 @@ button:hover {
     src: url("https://assets.website-files.com/5d816b07d269385f68dbcab0/5d816b07d2693800f5dbcae7_CalibreWeb-Light.woff") format("woff");
     font-style: normal;
     font-weight: 300;
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "Calibre";
     src: url("https://assets.website-files.com/5d816b07d269385f68dbcab0/5d816b07d269382ed5dbcaee_CalibreWeb-Medium.woff") format("woff");
     font-style: normal;
     font-weight: 500;
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: "Founders Grotesk Mono";
     src: url("https://assets.website-files.com/5d816b07d269385f68dbcab0/5d816b07d2693854eddbcad9_FoundersGroteskMonoWeb-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
-  }
+}
